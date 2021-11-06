@@ -10,7 +10,7 @@ function App() {
         <Background/>
       </div>
         <StartButton id='footer'/>
-        <Footer/>
+        <Footer id='footer-forreal'/>
     </body>
   );
 }
