@@ -18,8 +18,9 @@ const Footer = () => {
         <>
             <div className='footer-container'>
                 <ul id='footer-list'>
-                    <li> Buy me coffee</li>
-                    <li> Enjoy my programming playlist</li>
+                    <li className="footer-list"> Buy me coffee</li>
+                    <li className="footer-list"> Enjoy my programming playlist</li>
+                    <li className="footer-list">Tone.js rules</li>
                     <li id='time'> It's {date.toLocaleTimeString()}</li>
                 </ul>
             </div>

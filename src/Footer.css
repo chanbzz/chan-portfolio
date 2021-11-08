@@ -3,14 +3,24 @@ ul {
     background-color: #2765db;
     height: 25px;
     padding-top: 5px;
-    position: fixed;
+    position: absolute;
     top: 96%;
-    right: 0
-
+    right: 0;
+    left: 41px;
     
 }
 
 li {
     display: inline;
     color: white;
+}
+
+.footer-list {
+    margin-left: 20px;
+    background-color: #368bf7;
+}
+
+#time {
+    right: -1400px;
+    font-size: small;
 }
