@@ -1,4 +1,5 @@
 import './SiteNav.css'
+import { Link } from "react-router-dom";
 
 const SiteNav = () => {
     return(
@@ -9,10 +10,9 @@ const SiteNav = () => {
                 <li>Contact me</li>
             </ul>
             <ul>
-                <li>My resume</li>
-                <li>My Github</li>
-                <li>My LinkedIn</li>
-                <li>Learning at Ada</li>
+            <Link to="/about">my bio</Link>
+            <Link to="/generative-fun">click me</Link>
+            
             </ul>
         </>
     )
